@@ -9,7 +9,7 @@ export interface RegisterRequest { name: string; email: string; password: string
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
-  private apiUrl = 'https://onboard-assist1.onrender.com/api/auth';
+  private apiUrl = 'https://onboard-assist-s04c.onrender.com/api/auth';
 
   constructor(private http: HttpClient, private router: Router) {}
 
