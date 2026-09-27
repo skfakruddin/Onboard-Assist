@@ -7,7 +7,7 @@ import { AuthService } from './auth.service';
 
 @Injectable({ providedIn: 'root' })
 export class ChatService {
-  private apiUrl = 'https://onboard-assist1.onrender.com/api/chat';
+  private apiUrl = 'https://onboard-assist-s04c.onrender.com/api/chat';
 
   constructor(private http: HttpClient, private authService: AuthService) {}
 
